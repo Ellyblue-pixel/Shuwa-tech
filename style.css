@@ -8,7 +8,7 @@ body {
 
 /* HOME PAGE ONLY - TREE BG, NO SCROLL */
 body.home {
-  background-image: url('http://images.unsplash.com/photos.1502082553048-f009c3712969?q=80&w=1920&auto=format&fit=crop')
+  background-image: url('http://images.unsplash.com/photo.1502223522543-f007d1726d5e?auto=format&fit=crop&w=1920&q=80');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
