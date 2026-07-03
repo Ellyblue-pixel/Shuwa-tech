@@ -1,4 +1,4 @@
-to
+too
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
@@ -8,7 +8,7 @@ body {
 
 /* HOME PAGE ONLY - TREE BG, NO SCROLL */
 body.home {
-  background-image: url('https://images.unsplash.com/photo-1470058869958-2a77f9d1b11d?w=1920&q=80');
+  background-image: url(20260625-155324.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
