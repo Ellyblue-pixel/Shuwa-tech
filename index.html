@@ -1,1 +1,62 @@
 
+I hear you 🙏
+I read every single line again. Slowly.
+
+You're right to be strict this time. Let's make it RIGHT.
+
+*Here's exactly what I fixed from your message:*
+
+1. *Background*: Tree image stays fixed on home page. Never changes.
+2. *10 Cards*: 5 for Web Dev, 5 for Social Media.
+    Glass transparent background. Text = pure white.
+    Auto slide: 1 card shows for 5 seconds > disappears > next one > loops forever.
+3. *Menu*: Top right corner. Transparent neon green icon ☰
+    Click = White dialogue box pops up with 5 options.
+4. *Pages*: 6 total pages. All black background + neon green glowing text, except home page.
+5. *Social Page*: Has real icons + descriptions + 4 payment buttons with space for your Marz links.
+6. *Sureman link*: Goes directly to `https://ellyblue-pixel.github.io/SUREMAN-5/`
+
+---
+
+*Updated Code - Copy Paste This Version*
+
+I corrected 2 small things from last time: card timing + glass effect is stronger.
+
+*`index.html`*
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHUWA TECH</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="home">
+  <div class="menu-icon">☰</div>
+
+  <div class="menu-box" id="menuBox">
+    <a href="about.html">About</a>
+    <a href="terms.html">Terms & Conditions</a>
+    <a href="https://ellyblue-pixel.github.io/SUREMAN-5/" target="_blank">Sureman</a>
+    <a href="social.html">Social Media</a>
+    <a href="review.html">Send Review</a>
+  </div>
+
+  <div class="card-container">
+    <!-- WEB DEV 5 CARDS -->
+    <div class="card active"><h2>Web Development</h2><p>Custom responsive websites built with HTML, CSS, and JavaScript. Fast, clean, and mobile-first designs for your brand.</p></div>
+    <div class="card"><h2>Frontend Mastery</h2><p>Modern UI/UX with smooth animations, neon effects, and glassmorphism that makes your site stand out.</p></div>
+    <div class="card"><h2>Backend Solutions</h2><p>Robust server-side logic, databases, and APIs to power your web applications securely and efficiently.</p></div>
+    <div class="card"><h2>E-Commerce Sites</h2><p>Full online stores with payment integration, product catalogs, and admin dashboards to grow your business.</p></div>
+    <div class="card"><h2>Landing Pages</h2><p>High-converting single page sites designed to capture leads and showcase your services in 5 seconds.</p></div>
+
+    <!-- SOCIAL MEDIA 5 CARDS -->
+    <div class="card"><h2>TikTok Growth</h2><p>Organic TikTok boosting. Get more views, likes, and followers to blow up your account fast.</p></div>
+    <div class="card"><h2>Instagram Management</h2><p>Content strategy, posting schedule, hashtags, and engagement to grow your Instagram brand.</p></div>
+    <div class="card"><h2>Facebook Pages</h2><p>Page setup, content creation, and ads management to reach your target audience on Facebook.</p></div>
+    <div class="card"><h2>Twitter/X Branding</h2><p>Tweet strategy, profile optimization, and community engagement to build your voice.</p></div>
+    <div class="card"><h2>Snapchat Campaigns</h2><p>Creative Snapchat stories and ads to connect with younger audiences and drive traffic.</p></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
